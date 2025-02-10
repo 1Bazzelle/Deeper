@@ -1,23 +1,21 @@
-My current semester project.<br/>
-For that reason, many many things are not in their final state and some features don't work yet.
+My third-semester project.<br/>
 
 In Deeper, you descend into the ocean with your submarine with a collection of missions. These missions will require you to return to the research station with a picture of a specific fish.<br/>
 Upon mission completion, you will receive Funds and Research Points.<br/>
-With Funds you will be able to upgrade the submarine to allow e.g. for venturing deeper into the ocean with one of the depth upgrades.
-Research Points unlock information about the fish, of which you captured the pictures.
+With Funds you would be able to upgrade the submarine to allow e.g. for venturing deeper into the ocean with one of the depth upgrades, although for the reason of me being the only programmer and the team deciding that other features would have priority over the submarine upgrades, this did not make it into the game.
+Research Points unlock information about the fish, of which you captured the pictures, which you can find in the Journal.
 
-What currently works:
-- most UI elements (except Mission Completion Screen, Journal, and Upgrades Tab)
-- Submarine Movement
-- Taking/Saving Pictures
-- Boid schooling behaviour + Obstacle Avoidance + Target Point Seeking
-- not the Continue button in the main menu, please press New Game always
+Key Features are:
+- Boid Algorithms + Obstacle Avoidance + Target Point Seeking + Dynamic Selection of Leader Boids to guide their school
+- Taking/ Saving/ Evaluating Player-Taken Pictures
+- Use of UI Toolkit
 
 Submarine Controls:<br/>
-WASD/Shift/Space: Submarine Movement<br/>
+WASD/ Shift/ Space: Submarine Movement<br/>
 E: Switch to Mounted Camera
 
 Mounted Camera Controls:<br/>
 WASD: Mounted Camera Movement<br/>
-Scroll: Zoom in/out<br/>
-Space: Take Picture
+Scroll: Zoom in/ out<br/>
+Space: Take Picture<br/><br/>
+Tab: Open/ Close Journal
