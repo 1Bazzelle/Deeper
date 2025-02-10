@@ -19,3 +19,5 @@ WASD: Mounted Camera Movement<br/>
 Scroll: Zoom in/ out<br/>
 Space: Take Picture<br/><br/>
 Tab: Open/ Close Journal
+
+[![Itch.io]([https://img.itch.zone/aW1hZ2UvXXXXXX/YYYYYY/original/image.png](https://img.itch.zone/aW1nLzE5NzU5Njc0LnBuZw==/original/9Z3dE6.png))]([https://yourgame.itch.io/](https://debazzelle.itch.io/deeper))
