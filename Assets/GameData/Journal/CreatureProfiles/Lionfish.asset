@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32e2fe44b8154441b8a57f097a2afb1, type: 3}
+  m_Name: Lionfish
+  m_EditorClassIdentifier: 
+  id: 6
+  creatureName: Lionfish
+  latinCreatureName: Pterois volitans
+  zone: 1
+  image: {fileID: 21300000, guid: ba9ea32bb9914624aa2e33323a7b8439, type: 3}
+  imageReal: {fileID: 21300000, guid: 2952fcb89dd1084429323c0e3138134e, type: 3}
+  researchLevel2: 6
+  researchLevel3: 9
+  infoLevel1: 'HUNTING BEHAVIOUR
+
+    Red Lionfish have a BIG appetite. They eat
+    up to 20 fish per feeding session -
+
+    using their fan-like pectoral fins.
+    They corner their prey, then  strike with lightning speed, swallowing the fish
+    whole.'
+  infoLevel2: 'INVASIVE SPECIES
+
+    Originally native to the Indo- Pacific region
+    the Red Lionfish is now terrorizing the Atlantic Coasts, devouring local species
+    en masse which is destroying the natural balance and endangers many coral reef
+    ecosystems. They make up 92% of all invasive fish out there!'
+  infoLevel3: "VERY RESILIENT\nEquipped with  venomous spines and having close to
+    none natural predators, the Red Lionfish thrives in every environment. It also
+    reproduces rapidly - with females laying up to 30.000 eggs every month! Its resilience
+    makes it\_ one of the most common coral reef habitants."

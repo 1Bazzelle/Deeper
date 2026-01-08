@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582724ec204e481468a7eba6afe1853d, type: 3}
+  m_Name: CleanSave
+  m_EditorClassIdentifier: 
+  missionPool:
+    allMissions:
+    - {fileID: 11400000, guid: 359230905e45ac14bb7350d082c3455a, type: 2}
+    - {fileID: 11400000, guid: 1de68a71a33d21746b0a6c757796f4f6, type: 2}
+    - {fileID: 11400000, guid: b1989dd61cbb17047a00c66ddeceea94, type: 2}
+    - {fileID: 11400000, guid: 348f23cbccfbafe47ae1f3ffe55260fd, type: 2}
+    - {fileID: 11400000, guid: 9a3ed2c75cf9bc540adce852a9e05df2, type: 2}
+    - {fileID: 11400000, guid: 31208cd2800d34d4596b66fb63007513, type: 2}
+    - {fileID: 11400000, guid: 026894519356d28449115b3b1611a6b5, type: 2}
+    - {fileID: 11400000, guid: dc36a3a5b05b46b48a66ce0cebf32086, type: 2}
+    - {fileID: 11400000, guid: 3bba0bdf48856dc449450a0b69484fa7, type: 2}
+    - {fileID: 11400000, guid: c4a417b1c8b306947bfeca381fd3a185, type: 2}
+    - {fileID: 11400000, guid: 2fc77aa7831e09d4abe9509018eb3b8f, type: 2}
+    - {fileID: 11400000, guid: 574dcc42dd410644f9a0aaca1d661051, type: 2}
+    - {fileID: 11400000, guid: 203bfbd99fa66844b90ba65d47b5e4da, type: 2}
+    - {fileID: 11400000, guid: 1bd44d9bf4d5dfd4eb7891d006c4fb1c, type: 2}
+    - {fileID: 11400000, guid: 7066ae92e49ec664c9cab9a2a4a64790, type: 2}
+    - {fileID: 11400000, guid: bd37370a3c73e5a4895fe05cc9e5131d, type: 2}
+    - {fileID: 11400000, guid: ba7d6b1a9d4558e4faaf1b0db8ecaeb0, type: 2}
+    - {fileID: 11400000, guid: 9e66b3edf8b0f8344b32f122265d4695, type: 2}
+    - {fileID: 11400000, guid: b8a06e8a4cae102489fce5dc6ce7a166, type: 2}
+    - {fileID: 11400000, guid: 55cd22b174cb5c748a8c0220bf6386bb, type: 2}
+    - {fileID: 11400000, guid: 7f1112a20d4012444911f56adc46ffd1, type: 2}
+    - {fileID: 11400000, guid: 516acb18b847b184a8ab0471508dc2c5, type: 2}
+    - {fileID: 11400000, guid: af8482d53d825bd459629ee676bd67ff, type: 2}
+    - {fileID: 11400000, guid: 8f504184158c14740869a7654617315a, type: 2}
+    - {fileID: 11400000, guid: 9527cadd0c74f7847af92371faa2fa81, type: 2}
+    - {fileID: 11400000, guid: 7e83aeea68439094d8896985b8b7f5f0, type: 2}
+    - {fileID: 11400000, guid: 7ba45fb8627282b4885b56b0e2a0bd2f, type: 2}
+    - {fileID: 11400000, guid: 729c2550254776d40b4f5705ad8f047c, type: 2}
+    - {fileID: 11400000, guid: 889a3ffe0d695b940a99fc75f9a9972e, type: 2}
+    - {fileID: 11400000, guid: 6ef78c79799663d4cbbc394e0563950a, type: 2}
+    - {fileID: 11400000, guid: c9e9d95eb9f2ce54aa91b8734c419050, type: 2}
+    - {fileID: 11400000, guid: 8d832d56019ef0248a0d95aab03462f2, type: 2}
+    - {fileID: 11400000, guid: 38816112364b00d478124e74209165ca, type: 2}
+    - {fileID: 11400000, guid: b6dac4e984b45a849ada818b66696fd2, type: 2}
+  researcherContainer: {fileID: 11400000, guid: 20b73be32e5b8b44aa88468ebd5c06a6,
+    type: 2}
+  journal: {fileID: 11400000, guid: 316ca0d0ddf62644ca2a8c770360e95b, type: 2}
+  currentMissionSelection: []

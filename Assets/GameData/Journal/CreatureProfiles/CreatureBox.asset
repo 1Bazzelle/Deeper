@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32e2fe44b8154441b8a57f097a2afb1, type: 3}
+  m_Name: CreatureBox
+  m_EditorClassIdentifier: 
+  id: 2
+  creatureName: Boxfish
+  latinCreatureName: Ostracion cubicum
+  zone: 1
+  image: {fileID: 21300000, guid: fea8a800b5372f04ba2eeac30e7da544, type: 3}
+  imageReal: {fileID: 21300000, guid: ea36a3149804d1c4ab9f42b2061faab7, type: 3}
+  researchLevel2: 6
+  researchLevel3: 9
+  infoLevel1: 'ICONIC COLORS
+
+    Known for their vivid coloration, boxfish actually
+    change their colors as they grow! Juveniles start out bright yellow with bold
+    spots to mimic toxic patterns that ward off predators, but as they age, their
+    colors fade to blues, browns, or greys for better camouflage.'
+  infoLevel2: "NATURAL ARMOR\nThe boxfish wears natural armor made of bony plates,
+    forming a tough, hexagonal shield that protects it from predators. Despite its
+    rigid shell and boxy shape it glides through water dynamically \u2014 even inspiring
+    designs for cars and robots!"
+  infoLevel3: "TOXIC\nThe boxfish may look cute, but it\u2019s packing a secret weapon
+    \u2014 toxin-loaded slime! When stressed, it releases a deadly poison that can
+    wipe out predators and even nearby fish. A\_reason for their solitary lifestyle..."

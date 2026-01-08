@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff754d01e5e82584f941186b985e8395, type: 3}
+  m_Name: Myst_Simm_Toxic
+  m_EditorClassIdentifier: 
+  creatureNeeded: 02000000090000000e000000
+  id: 0
+  oneTime: 1
+  title: Capture Toxic Species
+  description: "Greetings Champ. \n\nOur finance department reports dwindling sales
+    volumes with the youth. \nConsider the following prospect: An article about which
+    maritime species could be utilized to create highly toxic weapons. \u2620\uFE0F\nAn
+    exiting topic such as this is sure to grant us their renewed interest.\n\nI will
+    expect a suitable photograph on my desk by tomorrow."
+  difficulty: 1
+  missionImage: {fileID: 0}
+  researcher: 8
+  rewardText: Splendid job.
+  failText: ...
+  missionRewardFlat: 1000
+  unlockConditions:
+  - type: 2
+    upgradeNecessary: 0
+    researcher: 5
+    researcherProgressNecessary: 2
+    creature: 0
+    creatureProgressNecessary: 0
+    otherMission: 0
+  completedAmount: 0

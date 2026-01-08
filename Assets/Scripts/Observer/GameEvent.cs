@@ -16,11 +16,11 @@ public class GameEvent : ScriptableObject
     }
 
     // Can be overloaded
-    public void Occured()
+    public void Occured(Sprite takenPicture)
     {
         foreach (EventListener listener in eventListeners)
         {
-            listener.OnEventOccured();
+            listener.OnEventOccured(takenPicture);
         }
     }
 

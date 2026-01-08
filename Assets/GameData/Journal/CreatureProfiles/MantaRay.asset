@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32e2fe44b8154441b8a57f097a2afb1, type: 3}
+  m_Name: MantaRay
+  m_EditorClassIdentifier: 
+  id: 5
+  creatureName: Manta Ray
+  latinCreatureName: Mobula alfredi
+  zone: 1
+  image: {fileID: 21300000, guid: 57a8fb00cd2eb9646a5084228f5727ff, type: 3}
+  imageReal: {fileID: 21300000, guid: 074fe885621503741a9745675c70a5d6, type: 3}
+  researchLevel2: 6
+  researchLevel3: 9
+  infoLevel1: "SMALLER COUSINS \nThe Reef Manta Ray is actually the smaller of the
+    two Manta Ray species. Its bigger cousin - the Giant Manta Ray - can get up to
+    7m long and weigh 2000 kg. These giants travel across the open oceans and dive
+    hundreds of meters deep in search for food."
+  infoLevel2: 'ENDANGERMENT
+
+    Humans are the biggest threat to manta rays, with
+    over 5000 killed yearly due to overfishing and bycatch. Climate change and pollution
+    are shrinking their habitats, leaving Reef Mantas vulnerable and Giant Mantas
+    endangered according to the IUCN.'
+  infoLevel3: 'MIRROR TEST
+
+    Having the biggest brain of all fish species and
+    also the highest brain-to-body ratio, Manta Rays are the only fish able to recognize
+    themselves in a mirror.
+
+    They only share this ability with a handful of other
+    animals, making Manta Rays one of the smartest animals in the kingdom!'

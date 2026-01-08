@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff754d01e5e82584f941186b985e8395, type: 3}
+  m_Name: Ella_Herbivore
+  m_EditorClassIdentifier: 
+  creatureNeeded: 0a0000000b000000
+  id: 0
+  oneTime: 1
+  title: Capture Herbivore Species
+  description: 'Heya, I need some more material for the website, can you give me
+    a picture for the section on herbivores? Oh and I just looked this up: Iff they
+    eat Phytoplankton they stil count as herbivores, not if they eat Zooplankton
+    though. And it says here, sponges also count as other animals, so they can''t
+    eat them either.
+
+
+    Try and make it look cool! Thanks a bunch!'
+  difficulty: 2
+  missionImage: {fileID: 0}
+  researcher: 2
+  rewardText: Ty so much! That's that works perfectly!
+  failText: Hm, I don't quite think that's the right one.. :/
+  missionRewardFlat: 100
+  unlockConditions:
+  - type: 4
+    upgradeNecessary: 0
+    researcher: 0
+    researcherProgressNecessary: 0
+    creature: 0
+    creatureProgressNecessary: 0
+    otherMission: 4
+  completedAmount: 0

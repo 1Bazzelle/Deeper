@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5420f1800f6532b499211989a520769f, type: 3}
+  m_Name: PureBoid
+  m_EditorClassIdentifier: 
+  sightRange: 5
+  seperationRange: 10
+  visionAngle: 135
+  moveSpeed: 5
+  steerSpeed: 2.5
+  seperationWeight: 1
+  alignmentWeight: 1
+  cohesionWeight: 1
+  generalBoidBehaviourWeight: 1
+  obstacleAvoidanceWeight: 3
+  targetPointWeight: 0.75
+  rayCount: 33
+  raycastLength: 5
+  recalculationInterval: 0.33

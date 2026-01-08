@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff754d01e5e82584f941186b985e8395, type: 3}
+  m_Name: TestMission
+  m_EditorClassIdentifier: 
+  creatureNeeded: 02000000
+  id: 0
+  oneTime: 0
+  title: Picture of a box
+  description: I am craving a picture of a box
+  difficulty: 0
+  missionImage: {fileID: 21300000, guid: 192e620346035b54a8272088dd9b8b84, type: 3}
+  researcher: 5
+  rewardText: Wow, immaculate
+  failText: No box, no reward
+  missionRewardFlat: 1500
+  unlockConditions: []
+  completedAmount: 0

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff754d01e5e82584f941186b985e8395, type: 3}
+  m_Name: Simm_Reptile
+  m_EditorClassIdentifier: 
+  creatureNeeded: 0c0000000e000000
+  id: 0
+  oneTime: 0
+  title: Capture Reptile
+  description: "Hey there, Sonny!\n\nSo there\u2019s a brand new study on how eating
+    reptile meat twice a week reduces the risk for heart attacks by like 80%! I\u2019ve
+    got some hot deals ready with the local fisheries to sponsor good articles on
+    this stuff already, so I just need your pics and we make BANK!! \U0001F4B0\U0001F4B0"
+  difficulty: 0
+  missionImage: {fileID: 0}
+  researcher: 5
+  rewardText: "Hell yeah Son!\nThat'll rake in the numbers \U0001F4B0\U0001F4B0\U0001F4B0!
+    !"
+  failText: "What's that supposed to be, eh? \nYou better be steppin' up your game
+    if you wanna get paid, got it? "
+  missionRewardFlat: 500
+  unlockConditions:
+  - type: 4
+    upgradeNecessary: 0
+    researcher: 0
+    researcherProgressNecessary: 0
+    creature: 0
+    creatureProgressNecessary: 0
+    otherMission: 4
+  completedAmount: 0

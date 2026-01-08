@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32e2fe44b8154441b8a57f097a2afb1, type: 3}
+  m_Name: WhiteTipShark
+  m_EditorClassIdentifier: 
+  id: 4
+  creatureName: Whitetip Shark
+  latinCreatureName: Triaenodon obesus
+  zone: 1
+  image: {fileID: 21300000, guid: 2286a569fb3651e43995ef5d44394358, type: 3}
+  imageReal: {fileID: 21300000, guid: 74e4f827a337809459a6c78afdccbc38, type: 3}
+  researchLevel2: 6
+  researchLevel3: 9
+  infoLevel1: 'OVERFISHING
+
+    Just like their blacktipped cousins, Whitetip Reef
+    Sharks are heavily targeted for their fins and liver oil. And with low reproduction
+    rates and shrinking reef habitats, they can''t recover fast enough. If overfishing
+    continues, their population will continue to drop 6-8% each year!'
+  infoLevel2: "BUCCAL PUMPING\nUnlike other reef sharks, Whitetip Reef Sharks can
+    breathe while staying still! They use a method called buccal pumpingto draw water
+    through their gills, letting them rest motionless on the ocean floor \u2014 perfect
+    for taking a quick nap!"
+  infoLevel3: 'UNDERWATER ASSASSINS
+
+    Whitetip Reef Shark are quite clumsy hunters
+    in open waters! Instead of using speed and endurance like many other sharks,
+    the Whitetip Reef Shark is specialized in stealth and agility. Using their slender
+    bodies they wiggle into small reef crevices to ambush hiding prey.'

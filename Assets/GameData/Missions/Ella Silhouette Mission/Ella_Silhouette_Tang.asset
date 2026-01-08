@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff754d01e5e82584f941186b985e8395, type: 3}
+  m_Name: Ella_Silhouette_Tang
+  m_EditorClassIdentifier: 
+  creatureNeeded: 090000000a000000
+  id: 0
+  oneTime: 0
+  title: Capture Silhouetted Species
+  description: "Aaand here we go again. I really don\u2019t know who took these pics
+    and thought they were usable for a scientific database\u2026\nWell whatever,
+    ol\u2019 Larry\u2019s been breathing down my neck to get these updated asap \u2013
+    don\u2019t leave me hanging, yeah? :)"
+  difficulty: 1
+  missionImage: {fileID: 21300000, guid: 949d6500fb13e814bae0287daeb82e97, type: 3}
+  researcher: 2
+  rewardText: Ty so much! That's that works perfectly!
+  failText: Hm, I don't quite think that's the right one.. :/
+  missionRewardFlat: 100
+  unlockConditions:
+  - type: 4
+    upgradeNecessary: 0
+    researcher: 0
+    researcherProgressNecessary: 0
+    creature: 0
+    creatureProgressNecessary: 0
+    otherMission: 4
+  completedAmount: 0

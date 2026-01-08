@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32e2fe44b8154441b8a57f097a2afb1, type: 3}
+  m_Name: Cuttlefish
+  m_EditorClassIdentifier: 
+  id: 13
+  creatureName: Cuttlefish
+  latinCreatureName: Sepia latimanus
+  zone: 1
+  image: {fileID: 21300000, guid: 453e53a920bdc674a9d92b2e868ff9d0, type: 3}
+  imageReal: {fileID: 21300000, guid: d1bcd5adc8892fc40945064f0fa6317d, type: 3}
+  researchLevel2: 6
+  researchLevel3: 9
+  infoLevel1: 'CHAMELEONS OF THE SEA
+
+    The Broadclub Cuttlefish is a master of
+    disguise! Using specialized skin cells they can change color, pattern, and  texture
+    in seconds. With 13 unique body patterns, they blend into their surroundings,
+    scare off predators, hunt stealthily, attract mates - and even communicate with
+    other cuttlefish.'
+  infoLevel2: "MATING SEASON\nFor cuttlefish, mating season is a once-in-a-lifetime
+    event \u2014 literally. With a short lifespan, they reproduce only once before
+    dying. During this crucial time, male Broadclub Cuttlefish put on a dazzling
+    color show to impress females. They flash bright patterns and stretch their bodies
+    to twice their size \u2014 trying to outshine any competitors!"
+  infoLevel3: "ENTRANCING PERFORMANCE\nThe Broadclub cuttlefish uses its color changing
+    abilities in many creative ways. When hunting it performs a rhythmic pulse of
+    color waves to hypnotize its prey. Imitating ocean waves allows it to get close
+    enough \u2014\_and strike the clueless prey with its tentacles!"

@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3494dd6e79227b145b5ba271b759fbb0, type: 3}
+  m_Name: VoiceLines
+  m_EditorClassIdentifier: 
+  firstPictureVoiceLines:
+  - creature: 1
+    voiceLine:
+      clip: {fileID: 8300000, guid: 0e9136273f4acc3468489786ee1d4067, type: 3}
+      subtitles: 
+    triggered: 0
+  - creature: 2
+    voiceLine:
+      clip: {fileID: 8300000, guid: 17565672985d7274b9831754bc46a592, type: 3}
+      subtitles: 
+    triggered: 0
+  - creature: 3
+    voiceLine:
+      clip: {fileID: 8300000, guid: 09c6202baeaa83d46a3595b28bdaff50, type: 3}
+      subtitles: 
+    triggered: 0
+  - creature: 4
+    voiceLine:
+      clip: {fileID: 8300000, guid: 4a41da7a0841f974cb5dbd6888bab908, type: 3}
+      subtitles: 
+    triggered: 0
+  - creature: 5
+    voiceLine:
+      clip: {fileID: 8300000, guid: 886a0a9bc8efdf2489249a994beac3ff, type: 3}
+      subtitles: 
+    triggered: 0
+  - creature: 6
+    voiceLine:
+      clip: {fileID: 8300000, guid: ce9f701de5d98794ab3c349bcebe9463, type: 3}
+      subtitles: 
+    triggered: 0
+  - creature: 7
+    voiceLine:
+      clip: {fileID: 8300000, guid: f3fc553a15143d9419f747e3d29bbbb9, type: 3}
+      subtitles: 
+    triggered: 0
+  - creature: 8
+    voiceLine:
+      clip: {fileID: 8300000, guid: 275727bfddcca004e87815bc64be473d, type: 3}
+      subtitles: 
+    triggered: 0
+  - creature: 9
+    voiceLine:
+      clip: {fileID: 8300000, guid: 2f866067b8ea5aa45912ba28b1277a7b, type: 3}
+      subtitles: 
+    triggered: 0
+  - creature: 10
+    voiceLine:
+      clip: {fileID: 8300000, guid: cce24b2e12be1bb4b8f2d30b2bc4a114, type: 3}
+      subtitles: 
+    triggered: 0
+  - creature: 11
+    voiceLine:
+      clip: {fileID: 8300000, guid: 5ada166a219b9cc4b94a7c5d52fe9bfb, type: 3}
+      subtitles: 
+    triggered: 0
+  - creature: 12
+    voiceLine:
+      clip: {fileID: 8300000, guid: dcebb026625dd0a4b9c18a2aa481889a, type: 3}
+      subtitles: 
+    triggered: 0
+  - creature: 13
+    voiceLine:
+      clip: {fileID: 8300000, guid: c7d576bd8d0644345ae280483e363fb9, type: 3}
+      subtitles: 
+    triggered: 0
+  fillerVoiceLines:
+  - clip: {fileID: 0}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 6911a0dee4da5af43be8bf4f0cdade46, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: d994560aba4e8be4691fce0245fe3e03, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 533127f2dbe68614d8275d2fd63ecbca, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 2b92145371019c247825b5fe0053d86c, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 1db864392b6b09047b48f5362981df49, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 68d7ce8f783aa1e46b7bafa4291dddcd, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: c7287742e11a6284e85ec0b4ad1cbf7d, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 942341ef1cf2bb14fa9a6c0afa682dd6, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 70475bfe8d3d7ab4a920e2860615e2ba, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: c936425e4ee3ae449a47b8ad0b60b621, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 7091c392886b52c4c886eb2a6dee38d0, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 590e305c5079e10499aa46fdc27d2596, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: ce01dde49b5808a4cb0e271b307bbdd3, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 70c170f7d13b69b419e15ea662968877, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 006efe67d263b8e4db1ace6c1b6bb0b3, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 655d095150ac6644380448dbe323c8ce, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 2866941a38a12e5448a47ea835a92d94, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 4bddc8620dc89f440bf46db5856f9e55, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: cabd7a3e0f38e8b48b70c46435c148a6, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 34941ccc71ff44f409799f9e8092cd55, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: bbdd9643ac6b9224392582342785ca10, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: b2734867961517045b9cb28e94610cda, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 578b5e94f674c9142a80b0eeefcaa0d6, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: f949e40bec39c3c469c4152eea138cde, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 02c04341e3c6f9a4bac5132026f0876c, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 11766c1ad4bba9b4cbf1771af6190a01, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 5b8cdbbe4275ae543b336eaeea05b51d, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 0682aebe4c1f57940aa5d52b026d4929, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: 025ade081f9f4354d8f46d943fc64726, type: 3}
+    subtitles: 
+  - clip: {fileID: 8300000, guid: e988e603cc6ff784fa8df6972816a217, type: 3}
+    subtitles: 

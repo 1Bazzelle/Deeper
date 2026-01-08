@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ad18d6a1cb6ae42a3c402a74d517a8, type: 3}
+  m_Name: Area 1
+  m_EditorClassIdentifier: 
+  showGizmos: 0
+  center:
+    position: {x: -11.47, y: -23.3, z: 0.04}
+    definers:
+    - position: {x: -6.39, y: 0.72, z: -5.7}
+      radius: 5.86
+    - position: {x: 8.02, y: 0, z: 9.88}
+      radius: 4.61
+    - position: {x: 3.31, y: 0.41, z: 22.2}
+      radius: 2.92
+  channels: []

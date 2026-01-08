@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff754d01e5e82584f941186b985e8395, type: 3}
+  m_Name: Larr_latin
+  m_EditorClassIdentifier: 
+  creatureNeeded: 00000000
+  id: 0
+  oneTime: 0
+  title: 'Capture [latin name]'
+  description: The Team and I require recent footage of [latin name] residing in
+    the general Coral Reef biotope. I expect nothing short of excellency for the
+    money provided.
+  difficulty: 1
+  missionImage: {fileID: 0}
+  researcher: 1
+  rewardText: Yes, this should be sufficient.
+  failText: I expect more of you in a professional setting. I suggest you learn from
+    your mistakes.
+  missionRewardFlat: 200
+  unlockConditions:
+  - type: 4
+    upgradeNecessary: 0
+    researcher: 0
+    researcherProgressNecessary: 0
+    creature: 0
+    creatureProgressNecessary: 0
+    otherMission: 7
+  completedAmount: 0

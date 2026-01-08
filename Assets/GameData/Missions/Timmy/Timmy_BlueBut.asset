@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff754d01e5e82584f941186b985e8395, type: 3}
+  m_Name: Timmy_BlueBut
+  m_EditorClassIdentifier: 
+  creatureNeeded: 07000000
+  id: 0
+  oneTime: 1
+  title: Capture Described Species
+  description: 'HELLO MR FOTOMAN!
+
+
+    I HURT OF A NEW BLUO FISH THAD HAS REELY
+    MANNY ICE!
+
+    THAT IS MUST BE CULEST FISH EVVER!
+
+    DAD SAD IF I ASK REEL
+    NISE YUO WILL SENT ME A PICKSHER??
+
+
+    PLEASE PLEASE PLEASE PLEASE PLE P PELAS
+    ELAPSE LESPALE PALESEASE PELEAS PLEAS PLEASE PLEASEPL EASE LEPASELAPSELA PLESA
+    LAPSEL'
+  difficulty: 2
+  missionImage: {fileID: 0}
+  researcher: 4
+  rewardText: WOW THENK YUO SO MUCH MISTER, I LOV HIM!!
+  failText: WHA? DATS NOT THE FISHY I MENT.. OH WELL.. :(
+  missionRewardFlat: 5
+  unlockConditions:
+  - type: 4
+    upgradeNecessary: 0
+    researcher: 0
+    researcherProgressNecessary: 0
+    creature: 0
+    creatureProgressNecessary: 0
+    otherMission: 5
+  completedAmount: 0

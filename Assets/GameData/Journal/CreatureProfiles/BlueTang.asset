@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32e2fe44b8154441b8a57f097a2afb1, type: 3}
+  m_Name: BlueTang
+  m_EditorClassIdentifier: 
+  id: 9
+  creatureName: Blue Tang
+  latinCreatureName: Paracanthurus hepatus
+  zone: 1
+  image: {fileID: 21300000, guid: f9bb5f1264402f645a2dc76c4f611c9c, type: 3}
+  imageReal: {fileID: 21300000, guid: 6f60a287633905c43958f27ae4db3e64, type: 3}
+  researchLevel2: 6
+  researchLevel3: 9
+  infoLevel1: 'PROFESSIONAL CLEANER
+
+    Tang fish are nature''s reef cleaners! They
+    graze on algae, helping to keep coral reefs healthy by preventing overgrowth.
+    With their constant nibbling, they play a vital role in maintaining the balance
+    of these vibrant ecosystems!'
+  infoLevel2: 'HIDDEN WEAPON
+
+    Also known as Surgeonfish, Tangs come armed with
+    sharp, spiny tails! These spines are used for self-defense, retracting from their
+    tails and capable of delivering a painful jab to predators.'
+  infoLevel3: 

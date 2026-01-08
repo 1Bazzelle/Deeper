@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253d43b0597356146b35f41a05c390e3, type: 3}
+  m_Name: Researchers
+  m_EditorClassIdentifier: 
+  researchers:
+  - id: 1
+    name: Prof. Dr. Dr. Larrington
+    image: {fileID: 21300000, guid: 47c7800965835154ca4a161eaeb4b30a, type: 3}
+    rewardType: 2
+    rewardBonus: 1.5
+    progress: 0
+  - id: 2
+    name: Ella
+    image: {fileID: 21300000, guid: 41bb3948366380046a9e4d502affd688, type: 3}
+    rewardType: 2
+    rewardBonus: 1.15
+    progress: 0
+  - id: 3
+    name: Margaret
+    image: {fileID: 21300000, guid: c02a6f698c0fe904babcc4be2543d565, type: 3}
+    rewardType: 1
+    rewardBonus: 1.15
+    progress: 0
+  - id: 4
+    name: Timmy
+    image: {fileID: 21300000, guid: cb66c6226c6f4fd4980dd06d9d0ad307, type: 3}
+    rewardType: 0
+    rewardBonus: 1
+    progress: 0
+  - id: 5
+    name: S. S. Simmons
+    image: {fileID: 21300000, guid: 26650e7aef5e9d442abe7e25497b2593, type: 3}
+    rewardType: 1
+    rewardBonus: 1.5
+    progress: 0
+  - id: 6
+    name: Prof. Dr. Larrington
+    image: {fileID: 21300000, guid: b73a1df665ae543459a5fdd229a65ab1, type: 3}
+    rewardType: 1
+    rewardBonus: 2
+    progress: 0
+  - id: 8
+    name: S. Simmons
+    image: {fileID: 21300000, guid: 16998e1dc5a68f44e8ecb511839eb4dd, type: 3}
+    rewardType: 1
+    rewardBonus: 2
+    progress: 0
+  - id: 7
+    name: Ms. Ella
+    image: {fileID: 21300000, guid: 9d815027357b8fb40af12c04391ab964, type: 3}
+    rewardType: 1
+    rewardBonus: 2
+    progress: 0

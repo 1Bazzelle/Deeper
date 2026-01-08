@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff754d01e5e82584f941186b985e8395, type: 3}
+  m_Name: Ella_MantaRay
+  m_EditorClassIdentifier: 
+  creatureNeeded: 05000000
+  id: 0
+  oneTime: 1
+  title: Capture Manta Ray
+  description: "Heya!\nI wanted to spruce our website up a bit! Always easier to
+    get funds and donations when the design doesn\u2019t just consist of boxes and
+    rainbow coloured comic sans text (don\u2019t tell Larrington I said that by the
+    way, he\u2019s really proud of his work apparently o.0).\nBut yeah, I thought
+    a Manta Ray might be really nice! Thank u!!"
+  difficulty: 0
+  missionImage: {fileID: 0}
+  researcher: 2
+  rewardText: Ty so much! That's that works perfectly!
+  failText: Hm, I don't quite think that's the right one.. :/
+  missionRewardFlat: 100
+  unlockConditions:
+  - type: 4
+    upgradeNecessary: 0
+    researcher: 0
+    researcherProgressNecessary: 0
+    creature: 0
+    creatureProgressNecessary: 0
+    otherMission: 4
+  completedAmount: 0

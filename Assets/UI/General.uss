@@ -1,0 +1,36 @@
+.menu-text {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.submenu {
+}
+
+.popup {
+}
+
+.unity-button {
+    font-size: 25px;
+    color: rgb(16, 18, 57);
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("project://database/Assets/UI/UIAssets/MainMenu/2.png?fileID=2800000&guid=99b6283b68201ad4fab76ca21df98f05&type=3#2");
+}
+
+.unity-button:hover {
+    background-image: url("project://database/Assets/UI/UIAssets/MountedCamera/PopUp/3.png?fileID=2800000&guid=506aeff42af4e224b967fc30d58cf7cc&type=3#3");
+    scale: 1.05 1.05;
+}
+
+.unity-button:active {
+    background-image: url("project://database/Assets/UI/UIAssets/MountedCamera/PopUp/3.png?fileID=2800000&guid=506aeff42af4e224b967fc30d58cf7cc&type=3#3");
+    scale: 1 1;
+}
+
+.menu {
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    flex-grow: 1;
+}

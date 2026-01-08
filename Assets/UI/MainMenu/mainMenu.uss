@@ -1,0 +1,29 @@
+.unity-slider {
+}
+
+.menu-text {
+    font-size: 30px;
+    -unity-text-align: middle-left;
+    color: rgb(70, 70, 70);
+}
+
+.menu-button {
+    max-width: 300px;
+    max-height: 200px;
+    width: 300px;
+    height: 50px;
+    align-self: center;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/Roboto-Regular.ttf?fileID=12800000&guid=107749b8a218bf04fb009c3665d01d1d&type=3#Roboto-Regular");
+    color: rgb(145, 145, 145);
+}
+
+.unity-slider__label {
+    font-size: 20px;
+    width: 110px;
+    min-width: auto;
+    color: rgb(255, 255, 255);
+}
+
+.unity-base-slider__drag-container {
+    width: 100px;
+}

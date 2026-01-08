@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff754d01e5e82584f941186b985e8395, type: 3}
+  m_Name: Marg_1_Boxfish
+  m_EditorClassIdentifier: 
+  creatureNeeded: 02000000
+  id: 3
+  oneTime: 1
+  title: Capture Described Species
+  description: "Oh, hello there Dearie!\n\nI heard they put you new on the Job? You
+    know my Felix here is such a big fan of those fishies with the black polka dots!
+    He absolutely adores scratching their pictures right up, it\u2019s such good
+    fun for the little bugger. Would you mind sending the two of us a lovely little
+    copy?\n\nLots of Love,\nMargaret"
+  difficulty: 0
+  missionImage: {fileID: 0}
+  researcher: 3
+  rewardText: Oh just look at this one! Thank you so much, Dearie, I hope you will
+    have a wonderous time with your new position!
+  failText: "Hmm let me put my glasses on... No I'm afraid that doesn't seem to be
+    quite what I asked for... \nNo matter, Dearie, I am certain you will get it on
+    the next try!"
+  missionRewardFlat: 150
+  unlockConditions:
+  - type: 4
+    upgradeNecessary: 0
+    researcher: 0
+    researcherProgressNecessary: 0
+    creature: 0
+    creatureProgressNecessary: 0
+    otherMission: 4
+  completedAmount: 0

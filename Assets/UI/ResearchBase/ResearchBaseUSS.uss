@@ -1,0 +1,99 @@
+.research-progress-slider {
+    width: 90%;
+    padding-left: 30px;
+}
+
+.research-tab-button {
+    max-width: 500px;
+    background-image: url("project://database/Assets/UI/UIAssets/ResearchBase/4.png?fileID=2800000&guid=b0f9e27464e868f4080f3f80d80ff5a9&type=3#4");
+    min-width: 300px;
+    font-size: 25px;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/BUSTER__.TTF?fileID=12800000&guid=3256c781bca553d43b1a8a30c591ff43&type=3#BUSTER__");
+}
+
+.research-tab-button-container {
+    margin-top: 20px;
+    background-color: rgba(0, 172, 195, 0);
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    max-width: 660px;
+    top: 0;
+}
+
+.unity-toggle__input {
+    justify-content: space-around;
+    align-self: center;
+    width: auto;
+    height: 100px;
+    min-width: auto;
+}
+
+.unity-toggle__label {
+    width: 70%;
+    padding-left: 5%;
+    height: 75px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-left;
+}
+
+.unity-toggle {
+    background-color: rgb(0, 172, 195);
+}
+
+.unity-toggle:checked {
+    background-color: rgb(0, 198, 224);
+}
+
+.research-mission-slot {
+    width: 30%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 450px;
+    min-height: 450px;
+    max-height: 450px;
+}
+
+.embark-button {
+    background-image: url("project://database/Assets/UI/UIAssets/ResearchBase/5.png?fileID=2800000&guid=2ae1a2b020d7dcb4895f62d97c197717&type=3#5");
+}
+
+.embark-button:hover {
+    background-image: url("project://database/Assets/UI/UIAssets/ResearchBase/5a.png?fileID=2800000&guid=c49ff153d7e0a624a9d94c58b2759bac&type=3#5a");
+}
+
+.embark-button:active {
+    background-image: url("project://database/Assets/UI/UIAssets/ResearchBase/5a.png?fileID=2800000&guid=c49ff153d7e0a624a9d94c58b2759bac&type=3#5a");
+}
+
+.cancel-button {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    background-image: url("project://database/Assets/UI/UIAssets/ResearchBase/x%20button/x%20button%20(2).png?fileID=2800000&guid=a59fec3e30dca5b4cba059b7400ed1b0&type=3#x button (2)");
+}
+
+.cancel-button:hover {
+    background-image: url("project://database/Assets/UI/UIAssets/ResearchBase/x%20button/x%20button%20(1).png?fileID=2800000&guid=2b7a083a0a86cc044bec0576a30f8baf&type=3#x button (1)");
+}
+
+.cancel-button:active {
+    background-image: url("project://database/Assets/UI/UIAssets/ResearchBase/x%20button/x%20button%20(1).png?fileID=2800000&guid=2b7a083a0a86cc044bec0576a30f8baf&type=3#x button (1)");
+}
+
+.research-tab-button:hover {
+    background-image: url("project://database/Assets/UI/UIAssets/ResearchBase/4a.png?fileID=2800000&guid=baf861fd68fc5774da8894de1aec0a99&type=3#4a");
+}
+
+.research-tab-button:active {
+    background-image: url("project://database/Assets/UI/UIAssets/ResearchBase/4a.png?fileID=2800000&guid=baf861fd68fc5774da8894de1aec0a99&type=3#4a");
+}

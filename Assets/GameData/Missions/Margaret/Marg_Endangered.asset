@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff754d01e5e82584f941186b985e8395, type: 3}
+  m_Name: Marg_Endangered
+  m_EditorClassIdentifier: 
+  creatureNeeded: 0c00000005000000
+  id: 0
+  oneTime: 1
+  title: Capture Endangered Species
+  description: "Good morning, Dearie!\r\n\r\nI just saw a report about ocean creatures
+    near extinction due to human hunting\u2014terrible, isn't it? As an expert, you
+    must understand how urgent this is! So, I had a marvelous idea: I'll knit sweaters
+    featuring these creatures to spread awareness in my neighbourhood.\r\nCould you
+    send me a photograph of an endangered creature to use as a design?\r\n\r\nLots
+    of Love,\r\nMargaret"
+  difficulty: 1
+  missionImage: {fileID: 0}
+  researcher: 3
+  rewardText: What a beautiful picture you took, thank you lots, Dearie!
+  failText: "Hmm let me put my glasses on... No I'm afraid that doesn't seem to be
+    quite what I asked for... \nNo matter, Dearie, I am certain you will get it on
+    the next try!"
+  missionRewardFlat: 150
+  unlockConditions:
+  - type: 4
+    upgradeNecessary: 0
+    researcher: 0
+    researcherProgressNecessary: 0
+    creature: 0
+    creatureProgressNecessary: 0
+    otherMission: 3
+  completedAmount: 0

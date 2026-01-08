@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff754d01e5e82584f941186b985e8395, type: 3}
+  m_Name: Timmy_Surgeon
+  m_EditorClassIdentifier: 
+  creatureNeeded: 09000000
+  id: 5
+  oneTime: 1
+  title: Capture Described Species
+  description: 'HELO NICE FOTOH MAN CAN I HEV A PICTURE OF BLOU FISH?? DAD SAID THE
+    FISHY NOES HOW TO DO MEDECINN OR SOMFING COOL LIK THAT!!
+
+
+    IS MI FAYWRIT
+    FISH OV AL TIME!!! :D'
+  difficulty: 2
+  missionImage: {fileID: 0}
+  researcher: 4
+  rewardText: WOW THENK YUO SO MUCH MISTER, I LOV HIM!!
+  failText: WHA? DATS NOT THE FISHY I MENT.. OH WELL.. :(
+  missionRewardFlat: 4
+  unlockConditions:
+  - type: 4
+    upgradeNecessary: 0
+    researcher: 0
+    researcherProgressNecessary: 0
+    creature: 0
+    creatureProgressNecessary: 0
+    otherMission: 1
+  completedAmount: 0

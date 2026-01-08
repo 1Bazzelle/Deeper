@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff754d01e5e82584f941186b985e8395, type: 3}
+  m_Name: Myst_Larr_Cuttlefish
+  m_EditorClassIdentifier: 
+  creatureNeeded: 0d000000
+  id: 0
+  oneTime: 1
+  title: Capture Described Species
+  description: The Team and I, Prof. Dr. Dr. Larrington, are writing a highly important
+    scientific paper on hypnosis of the mas... of fish. Prompt delivery of a species
+    capable of such feats is required if you do not wish to be fired.
+  difficulty: 1
+  missionImage: {fileID: 0}
+  researcher: 6
+  rewardText: Splendid job.
+  failText: ...
+  missionRewardFlat: 1000
+  unlockConditions:
+  - type: 2
+    upgradeNecessary: 0
+    researcher: 1
+    researcherProgressNecessary: 2
+    creature: 0
+    creatureProgressNecessary: 0
+    otherMission: 0
+  completedAmount: 0

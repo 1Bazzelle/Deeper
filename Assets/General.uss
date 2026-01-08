@@ -1,0 +1,95 @@
+.menu {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    background-color: rgba(12, 33, 70, 0.2);
+}
+
+.sub-menu {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.sub-sub-menu {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    position: absolute;
+}
+
+.menu-text {
+    color: rgb(82, 82, 82);
+    font-size: 30px;
+    -unity-text-align: middle-left;
+}
+
+.sub-sub-menu {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    position: absolute;
+}
+
+.unity-button {
+    -unity-background-scale-mode: stretch-to-fill;
+    transition-property: scale;
+}
+
+.unity-button:hover {
+    transition-duration: 0s;
+    scale: 1.025 1.025;
+}
+
+.unity-button:active {
+    transition-duration: 0s;
+    transition-property: scale;
+    scale: 1 1;
+}
+
+.unity-progress-bar {
+}
+
+.menu-button {
+    max-width: 300px;
+    max-height: 200px;
+    width: 300px;
+    height: 50px;
+    align-self: center;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-left-color: rgba(0, 0, 0, 0.38);
+    border-right-color: rgba(0, 0, 0, 0.38);
+    border-top-color: rgba(0, 0, 0, 0.38);
+    border-bottom-color: rgba(0, 0, 0, 0.38);
+}
+
+.unity-progress-bar__background {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.unity-progress-bar__progress {
+    background-color: rgba(0, 0, 0, 0.37);
+}

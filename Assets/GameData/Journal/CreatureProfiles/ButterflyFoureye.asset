@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32e2fe44b8154441b8a57f097a2afb1, type: 3}
+  m_Name: ButterflyFoureye
+  m_EditorClassIdentifier: 
+  id: 7
+  creatureName: Butterfly Foureye
+  latinCreatureName: Chaetodon capistratus
+  zone: 1
+  image: {fileID: 21300000, guid: 45e5add00706d5e4a9589cbce0e62233, type: 3}
+  imageReal: {fileID: 21300000, guid: b808beba5e15fd64aab9cc511e09b8f2, type: 3}
+  researchLevel2: 6
+  researchLevel3: 9
+  infoLevel1: 'PLAYDATES
+
+    Butterflyfish pairs always stay close to each other,
+    and love engaging in playful activities like chasing each other or performing
+    colorful dances! When getting separated they swim up and search for the other
+    other until they are united again!'
+  infoLevel2: 'PICKY EATERS
+
+    Pairs share a territory that they defend and use
+    for feeding. With  their narrow snouts they nibble on tiny invertebrates, like
+    polyps, hiding within coral. Agile and precise, they dart between reefs for a
+    feast, playing a crucial role in coral health!'
+  infoLevel3: 

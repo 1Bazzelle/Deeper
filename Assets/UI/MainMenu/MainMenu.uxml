@@ -1,0 +1,43 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenu/mainMenu.uss?fileID=7433441132597879392&amp;guid=441b8e3017fab694b9d648e210a8225a&amp;type=3#mainMenu" />
+    <Style src="project://database/Assets/UI/General.uss?fileID=7433441132597879392&amp;guid=18034bbbef8cb2747b1b9981fc42c75b&amp;type=3#General" />
+    <ui:VisualElement name="Panel" style="position: absolute; top: auto; right: 50%; display: flex;">
+        <ui:VisualElement name="Container" style="flex-grow: 1; width: 1920px; height: 1080px; background-color: rgba(0, 34, 119, 0.29); position: absolute; left: -966px; top: 0;">
+            <ui:VisualElement name="Logo" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/UI/UIAssets/MainMenu/Logo_Colored_Orange-02.png?fileID=2800000&amp;guid=ee0a814b6cd863d4ea5e463351c4eb66&amp;type=3#Logo_Colored_Orange-02&quot;); background-color: rgba(255, 255, 255, 0); left: 0; right: 0; position: relative; top: 220px; bottom: 0; -unity-background-image-tint-color: rgb(255, 255, 255); -unity-background-scale-mode: scale-to-fit; width: 936px; height: 300px; flex-shrink: 0; align-self: center; margin-top: 40px; margin-right: 40px; margin-bottom: 40px; margin-left: 40px;" />
+            <ui:VisualElement name="ButtonContainer" class="menu" style="flex-grow: 1; align-self: center; height: 300px; top: 215px; background-image: url(&quot;project://database/Assets/UI/UIAssets/MainMenu/1.png?fileID=2800000&amp;guid=ea10454f849740248b69544a90aa01e1&amp;type=3#1&quot;); justify-content: center; width: 400px; max-height: 300px; -unity-background-image-tint-color: rgba(110, 82, 232, 0.78); display: flex;">
+                <ui:Button text="Continue" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ContinueButton" class="menu-button" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+                <ui:Button text="New Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NewGameButton" class="menu-button" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+                <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SettingsButton" class="menu-button" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+                <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitButton" class="menu-button" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="PopUpContainer" style="flex-grow: 1; position: absolute;">
+                <ui:VisualElement name="NewGameConfirmationContainer" class="menu" style="top: 400px; display: none; left: 480px; background-image: url(&quot;project://database/Assets/UI/UIAssets/MainMenu/NewGameConfirmation/1.png?fileID=2800000&amp;guid=f397c6560e4e8124cbecbc5f68f67d16&amp;type=3#1&quot;); -unity-background-image-tint-color: rgba(110, 82, 232, 0.94);">
+                    <ui:Label tabindex="-1" text="Are you sure you want to overwrite your Save?" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ConfirmationText" class="menu-text" style="font-size: 40px; padding-bottom: 30px; padding-top: 20px;" />
+                    <ui:VisualElement name="ConfirmationButtonContainer" style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+                        <ui:Button text="Cancel" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NewGameCancelButton" class="unity-button" style="width: 400px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+                        <ui:Button text="Confirm" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NewGameConfirmButton" class="unity-button" style="width: 400px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="SettingsContainer" class="menu" style="display: none; top: 336px; width: 750px; height: 500px; left: 76%; background-image: url(&quot;project://database/Assets/UI/UIAssets/MainMenu/SettingsMenu/1.png?fileID=2800000&amp;guid=19f11d49c696cfd47afa3dc4125ca9a2&amp;type=3#1&quot;); padding-right: 43px; padding-left: 33px; -unity-background-image-tint-color: rgba(110, 82, 232, 0.94);">
+                    <ui:Label tabindex="-1" text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SettingsText" class="menu-text" style="font-size: 40px; padding-bottom: 30px;" />
+                    <ui:VisualElement name="SettingsSettingsContainer" style="flex-grow: 1; flex-direction: row;">
+                        <ui:VisualElement name="GeneralSettingsContainer" class="sub-menu" style="flex-grow: 1; margin-right: 50px;">
+                            <ui:VisualElement name="SensitivityContainer">
+                                <ui:Slider picking-mode="Ignore" label="Sensitivity" value="42" high-value="100" name="SensitivitySlider" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="AudioSettingsContainer" class="sub-menu" style="flex-grow: 1;">
+                            <ui:Slider picking-mode="Ignore" label="Master" value="42" high-value="100" name="MasterVolumeSlider" />
+                            <ui:Slider picking-mode="Ignore" label="Music" value="42" high-value="100" name="MusicVolumeSlider" />
+                            <ui:Slider picking-mode="Ignore" label="Effects" value="42" high-value="100" name="EffectsVolumeSlider" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="SettingsButtons" style="flex-grow: 0; flex-direction: row; padding-top: 50px;">
+                        <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitSettingsButton" style="min-width: 225px; margin-right: 34px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+                        <ui:Button text="Apply Changes" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ApplyChangesButton" style="min-width: 225px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

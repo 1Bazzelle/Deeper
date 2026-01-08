@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32e2fe44b8154441b8a57f097a2afb1, type: 3}
+  m_Name: TestCreatureProfile
+  m_EditorClassIdentifier: 
+  id: 1
+  creatureName: Clownfish
+  image: {fileID: 21300000, guid: 809908a24c4fbd8408a087cf2a1a2173, type: 3}
+  imageReal: {fileID: 21300000, guid: 192e620346035b54a8272088dd9b8b84, type: 3}
+  researchLevel1: 5
+  researchLevel2: 10
+  researchLevel3: 20
+  infoLevel1: He is orange, orange fish
+  infoLevel2: Cute little eyes wow cute fish
+  infoLevel3: Live in anemone, anemone anemone fun word

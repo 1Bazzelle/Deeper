@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff754d01e5e82584f941186b985e8395, type: 3}
+  m_Name: Larr_1_Clown
+  m_EditorClassIdentifier: 
+  creatureNeeded: 01000000
+  id: 1
+  oneTime: 1
+  title: Capture Clownfish
+  description: "Welcome aboard the team, colleague. There is no time to waste so
+    please get right on the job and familiarize yourself with the equipment as you
+    go.\n\nThe research team and I require footage of the regional Amphiprioninae
+    \u2013 or Clownfish as you would call it. A swarming species that is striped
+    white and orange. This should be sufficiently easy to start you out with, yes?"
+  difficulty: 0
+  missionImage: {fileID: 0}
+  researcher: 1
+  rewardText: Yes, this should be sufficient.
+  failText: I expect more of you in a professional setting. I suggest you learn from
+    your mistakes.
+  missionRewardFlat: 200
+  unlockConditions:
+  - type: 0
+    upgradeNecessary: 0
+    researcher: 0
+    researcherProgressNecessary: 0
+    creature: 0
+    creatureProgressNecessary: 0
+    otherMission: 0
+  completedAmount: 0

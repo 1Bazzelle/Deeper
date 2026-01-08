@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32e2fe44b8154441b8a57f097a2afb1, type: 3}
+  m_Name: Clownfish
+  m_EditorClassIdentifier: 
+  id: 1
+  creatureName: Clownfish
+  latinCreatureName: Amphiprioninae
+  zone: 1
+  image: {fileID: 21300000, guid: 1a9388c3bafa93448965fa049065e4eb, type: 3}
+  imageReal: {fileID: 21300000, guid: b14391ceca7c12a45866d01902895b43, type: 3}
+  researchLevel2: 6
+  researchLevel3: 9
+  infoLevel1: "SYMBIOTIC RELATIONSHIP\nClownfish and sea anemones share a mutually
+    beneficial relationship! The clownfish find protection among the anemone\u2019s
+    stinging tentacles, while they clean the anemone and scare off predators, creating
+    a safe haven for both!"
+  infoLevel2: 'ONE BIG FAMILY
+
+    It''s true! Most Clownfish live in groups that
+    consist of two parents and their offspring. They follow a strong hierarchal order
+    with the biggest female leading the group and the strongest male as her mating
+    partner. This male protects the eggs and cares for the babies until they are
+    old enough to join the group!'
+  infoLevel3: "HERMAPHRODITES\nClownfish are all born male - but they have a unique
+    ability. Within one week they can change their sex to become a female! After
+    the female of a\_group dies the biggest male will take on the role of the new
+    leader and change its gender accordingly!"

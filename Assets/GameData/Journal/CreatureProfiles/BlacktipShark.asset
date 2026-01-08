@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32e2fe44b8154441b8a57f097a2afb1, type: 3}
+  m_Name: BlacktipShark
+  m_EditorClassIdentifier: 
+  id: 3
+  creatureName: Blacktip Shark
+  latinCreatureName: Carcharhinus melanopterus
+  zone: 1
+  image: {fileID: 21300000, guid: 8ba00aa512ea5d54ab647c64a8b39211, type: 3}
+  imageReal: {fileID: 21300000, guid: e992f60d76ba3cb44918e02a897fd191, type: 3}
+  researchLevel2: 6
+  researchLevel3: 9
+  infoLevel1: "EXPERT HUNTERS\nBlacktip Reef Sharks have sharp senses! They can smell
+    a drop of blood in a million liters of water, see in the dark and hear struggling
+    fish up to a mile away. This makes them dangerous predators\u2014 but don\u2019t
+    worry, they\u2019re rather shy and usually avoid humans!"
+  infoLevel2: 'SPECIAL BONDS
+
+    Known for being territorial as well as social,
+    groups of Blacktip Reef Sharks often stay in the same area for years. They hunt
+    together, defend their territory together and generally display a great communication
+    and organization within their flock!'
+  infoLevel3: "SIXTH SENSE\nBlacktip Reef Sharks have electroreceptors \u2014 a sixth
+    sense that detects electrical signals from muscle movements. This way they can
+    find  prey hidden in the\_ sand or under rocks only by sensing its tiny heartbeat!"

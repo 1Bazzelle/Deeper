@@ -6,12 +6,12 @@ using UnityEngine.Events;
 public class EventListener : MonoBehaviour
 {
     [SerializeField] private GameEvent gameEvent;
-    [SerializeField] private UnityEvent response;
+    [SerializeField] private UnityEvent<Sprite> response;
 
     // Can be overloaded
-    public void OnEventOccured()
+    public void OnEventOccured(Sprite takenPicture)
     {
-        response.Invoke();
+        response.Invoke(takenPicture);
     }
     private void OnEnable()
     {

@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/CameraUI/MountedCamera.uss?fileID=7433441132597879392&amp;guid=302f46826a7640a459bb01fd730507f4&amp;type=3#MountedCamera" />
+    <Style src="project://database/Assets/UI/MainMenu/mainMenu.uss?fileID=7433441132597879392&amp;guid=441b8e3017fab694b9d648e210a8225a&amp;type=3#mainMenu" />
+    <Style src="project://database/Assets/General.uss?fileID=7433441132597879392&amp;guid=b4167e09faeca1f43b4a9920f2f8c265&amp;type=3#General" />
+    <ui:VisualElement name="Panel" style="flex-grow: 1; position: absolute; width: 1920px; height: 1080px;">
+        <ui:VisualElement name="Container" style="flex-grow: 1;">
+            <ui:Label text="Picture Capacity Reached! Press G to return to Research Station and submit your work" name="PictureCapacityNotifier" class="menu-text" style="position: absolute; top: 607px; left: 612px; margin-left: 4px; margin-top: 2px; -unity-text-align: middle-center; font-size: 50px; display: none; width: 696px; white-space: normal; color: rgb(255, 255, 255);" />
+            <ui:VisualElement name="CameraUI" style="flex-grow: 1; position: absolute; width: 1920px; height: 1080px; background-image: url(&quot;project://database/Assets/UI/UIAssets/MountedCamera/1.png?fileID=2800000&amp;guid=f6eebb61789679d4ca1047a92c20be9b&amp;type=3#1&quot;);">
+                <ui:Label tabindex="-1" text="2/8" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PicturesLeft" class="menu-text" style="font-size: 50px; top: 82px; left: 78px; color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="PicturePopUpContainer" class="menu" style="flex-grow: 1; position: relative; left: auto; margin-top: 150px; margin-right: 500px; margin-bottom: 150px; margin-left: 500px; padding-bottom: 50px; padding-right: 50px; padding-top: 50px; padding-left: 50px; display: none; background-image: url(&quot;project://database/Assets/UI/UIAssets/MountedCamera/PopUp/1.png?fileID=2800000&amp;guid=64207dc177b0216469e9dc6f9f5edc2a&amp;type=3#1&quot;); -unity-background-image-tint-color: rgba(110, 82, 232, 0.78); border-top-left-radius: 30px; border-top-right-radius: 0; border-bottom-right-radius: 30px; border-bottom-left-radius: 0;">
+                <ui:VisualElement name="PictureContainer" style="flex-grow: 1; min-width: auto; min-height: 75%; max-height: 75px; margin-top: 30px;">
+                    <ui:VisualElement name="Picture" style="flex-grow: 1; align-self: center; background-color: rgb(255, 255, 255); width: auto; height: auto; min-width: 800px; max-width: 800px; max-height: 450px; min-height: 450px; border-top-left-radius: 20px; border-bottom-right-radius: 20px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="SelectionButtonContainer" style="flex-grow: 1; flex-direction: row; justify-content: space-between; height: auto; min-height: 20%; max-height: 20%;">
+                    <ui:Button text="Discard" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DiscardButton" class="button-selection" style="background-color: rgba(0, 0, 0, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; -unity-font-definition: url(&quot;project://database/Assets/UI/Fonts/BUSTER__.TTF?fileID=12800000&amp;guid=3256c781bca553d43b1a8a30c591ff43&amp;type=3#BUSTER__&quot;); font-size: 40px;" />
+                    <ui:Button text="Save" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SaveButton" class="button-selection" style="background-color: rgba(0, 0, 0, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; -unity-font-definition: url(&quot;project://database/Assets/UI/Fonts/BUSTER__.TTF?fileID=12800000&amp;guid=3256c781bca553d43b1a8a30c591ff43&amp;type=3#BUSTER__&quot;); font-size: 40px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
